@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[Mod]
+(
+	[Id] INT IDENTITY(1,1) PRIMARY KEY, 
+    [Car] INT FOREIGN KEY REFERENCES Car(Id) NOT NULL, 
+    [Mechanic] INT FOREIGN KEY REFERENCES CUser(Id) NOT NULL, 
+    [Owner] INT FOREIGN KEY REFERENCES CUser(Id) NOT NULL, 
+    [ModComponent] INT FOREIGN KEY REFERENCES ModComponent(Id) NOT NULL, 
+    [Added] DATETIME NOT NULL, 
+    [Edited] DATETIME NOT NULL, 
+    [Cost] MONEY NOT NULL, 
+    [ModCategory] INT FOREIGN KEY REFERENCES ModCategory(Id) NOT NULL, 
+
+)

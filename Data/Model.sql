@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Model]
+(
+	[Id] INT IDENTITY(1,1) PRIMARY KEY, 
+    [Make] INT FOREIGN KEY REFERENCES Make(Id) NOT NULL, 
+    [Name] VARCHAR(200) NOT NULL
+)

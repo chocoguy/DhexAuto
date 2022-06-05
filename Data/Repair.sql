@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Repair]
+(
+	[Id] INT IDENTITY(1,1) PRIMARY KEY, 
+    [Car] INT FOREIGN KEY REFERENCES Car(Id) NOT NULL, 
+    [Mechanic] INT FOREIGN KEY REFERENCES CUser(Id) NOT NULL, 
+    [Owner] INT FOREIGN KEY REFERENCES CUser(Id) NOT NULL, 
+    [RepairComponent] INT FOREIGN KEY REFERENCES RepairComponent(Id) NOT NULL, 
+    [Added] DATETIME NOT NULL, 
+    [Edited] DATETIME NOT NULL, 
+    [Cost] MONEY NOT NULL, 
+)

@@ -1,0 +1,7 @@
+/.vs
+/WebApp/bin
+/WebApp/obj
+/WebApp/wwwroot/css/bootstrap
+/WebApp/wwwroot/css/open-iconic
+/Data/bin
+/Data/obj

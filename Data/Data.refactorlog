@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="28fa450d-2a26-409a-93d0-54b71dacd4a4" ChangeDateTime="06/05/2022 00:53:24">
+    <Property Name="ElementName" Value="[dbo].[Car].[VIn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Car]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Vin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="13141b71-8bf1-4ab9-b588-685c15653784" ChangeDateTime="06/05/2022 01:10:26">
+    <Property Name="ElementName" Value="[dbo].[RepairComponent].[name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[RepairComponent]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="50ad8776-e5c2-403b-936f-cb3be4124806" ChangeDateTime="06/05/2022 16:05:54">
+    <Property Name="ElementName" Value="[dbo].[CylinderConfig].[Namr]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CylinderConfig]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+</Operations>

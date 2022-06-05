@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[CTrim]
+(
+	[Id] INT IDENTITY(1,1) PRIMARY KEY, 
+    [Model] INT FOREIGN KEY REFERENCES Model(Id) NOT NULL, 
+    [Name] VARCHAR(200) NOT NULL
+)
